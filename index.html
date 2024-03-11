@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Drum kit </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Lets get the Beat</h1>
+    <!--Bottons and Key values -->
+    <div class="keys">
+        <div data-key="65" class="key">
+          <button class =click>A</button>
+          <span class="sound">clap</span>
+        </div>
+        <div data-key="83" class="key">
+            <button class =click>S</button>
+          
+          <span class="sound">hihat</span>
+        </div>
+        <div data-key="68" class="key">
+            <button class =click>D</button>
+         
+          <span class="sound">kick</span>
+        </div>
+        <div data-key="70" class="key">
+            <button class =click>F</button>
+          
+          <span class="sound">openhat</span>
+        </div>
+        <div data-key="72" class="key">
+            <button class =click>H</button>
+          
+          <span class="sound">ride</span>
+        </div>
+        <div data-key="74" class="key">
+            <button class =click>J</button>
+          <span class="sound">snare</span>
+        </div>
+        <div data-key="75" class="key">
+            <button class =click>K</button>
+         
+          <span class="sound">tom</span>
+        </div>
+        <div data-key="76" class="key">
+            <button class =click>L</button>
+          
+          <span class="sound">tink</span>
+        </div>
+      </div>
+    </div>
+    <!-- Sound declaring and locations-->
+      <audio data-key="65" src="DSound/clap.wav"></audio>
+      <audio data-key="83" src="DSound/hihat.wav"></audio>
+      <audio data-key="68" src="DSound/kick.wav"></audio>
+      <audio data-key="70" src="DSound/openhat.wav"></audio>
+      <audio data-key="72" src="DSound/ride.wav"></audio>
+      <audio data-key="74" src="DSound/snare.wav"></audio>
+      <audio data-key="75" src="DSound/tom.wav"></audio>
+      <audio data-key="76" src="DSound/tink.wav"></audio>
+<script src="script.js"></script>
+</body>
+</html>
